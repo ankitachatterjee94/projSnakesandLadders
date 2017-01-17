@@ -1,0 +1,58 @@
+  projSnakesAndLadders.frmMain.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly projSnakesAndLadders, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class projSnakesAndLadders.frmMain: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.SplitContainer mainPanel : Public
+    System.Windows.Forms.PictureBox picBoard : Public
+    System.Windows.Forms.PictureBox ball1 : Public
+    System.Windows.Forms.PictureBox ball2 : Public
+    System.Windows.Forms.Timer tmrMove : Public
+    System.Windows.Forms.Timer tmrDice : Public
+    System.Windows.Forms.PictureBox d6 : Public
+    System.Windows.Forms.PictureBox d2 : Public
+    System.Windows.Forms.PictureBox d4 : Public
+    System.Windows.Forms.PictureBox d5 : Public
+    System.Windows.Forms.PictureBox d1 : Public
+    System.Windows.Forms.PictureBox d3 : Public
+    System.Windows.Forms.PictureBox imgDice : Public
+    System.Windows.Forms.GroupBox groupBox2 : Public
+    System.Windows.Forms.GroupBox groupBox1 : Public
+    System.Windows.Forms.Label lblStatus : Public
+    System.Windows.Forms.Label lblbonus2 : Public
+    System.Windows.Forms.Label lblsnake2 : Public
+    System.Windows.Forms.Label lbllad2 : Public
+    System.Windows.Forms.Label lblmoves2 : Public
+    System.Windows.Forms.Label label5 : Public
+    System.Windows.Forms.Label label6 : Public
+    System.Windows.Forms.Label label7 : Public
+    System.Windows.Forms.Label label8 : Public
+    System.Windows.Forms.Label lblbonus1 : Public
+    System.Windows.Forms.Label lblsnake1 : Public
+    System.Windows.Forms.Label lbllad1 : Public
+    System.Windows.Forms.Label lblmoves1 : Public
+    System.Windows.Forms.Label label4 : Public
+    System.Windows.Forms.Label label3 : Public
+    System.Windows.Forms.Label label2 : Public
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.Panel pnlWin : Public
+    System.Windows.Forms.Button button2 : Public
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.Label lblwin : Public
+    System.ComponentModel.IContainer components : Public
+Class UI<projSnakesAndLadders::frmMain>: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    set(frmMain): PrivateScope, Public, Static, HideBySig
+    get(): PrivateScope, Public, Static, HideBySig
